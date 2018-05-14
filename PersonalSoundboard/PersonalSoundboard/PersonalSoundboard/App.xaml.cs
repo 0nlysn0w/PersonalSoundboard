@@ -13,7 +13,7 @@ namespace PersonalSoundboard
 		{
 			InitializeComponent();
 
-			MainPage = new PersonalSoundboard.MainPage();
+			MainPage = new GridPage();
 		}
 
 		protected override void OnStart ()
