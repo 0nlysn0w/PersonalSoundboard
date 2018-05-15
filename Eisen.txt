@@ -1,0 +1,9 @@
+- M Personal soundboard
+- M een bepaalde hoeveelheid tiles waarop gedrukt kan worden om een geluid op te nemen
+- M er kan per tile ook een foto toegevoegd worden zodat je weet welk geluid je afspeelt.
+- W er kan per tile ook een GIF toegevoegd worden zodat je weet welk geluid je afspeelt
+- M Opgenomen geluiden kan je delen via de app of via social media.
+- M Degene die het geluid via een ander persoon heeft ontvangen via social media heeft de mogelijkheid om het geluid incl. foto/GIF op te slaan in zijn/haar app.
+- M De geluiden kan je een naam geven.
+- C De geluiden kan je bewerken in de app om delen weg te knippen.
+- 
