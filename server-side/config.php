@@ -7,7 +7,7 @@ ini_set('display_errors', 'On');
 error_reporting(-1);
 
 // GET details
-$obj = (include 'details.php');
+$obj = (include '../../details.php');
 
 // create all classes
 $connect = new Connect($obj["database"]);
