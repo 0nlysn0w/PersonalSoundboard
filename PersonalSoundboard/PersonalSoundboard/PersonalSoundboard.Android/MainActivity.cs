@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Audioplayer.Droid;
 
 namespace PersonalSoundboard.Droid
 {
@@ -19,7 +20,11 @@ namespace PersonalSoundboard.Droid
 
             base.OnCreate(bundle);
 
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            PersonalSoundboard.App.CreateAudioPlayer = () => new AudioplayerCustom();
+
             LoadApplication(new App());
         }
     }
