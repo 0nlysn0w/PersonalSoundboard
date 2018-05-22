@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:PersonalSoundboard"
              x:Class="PersonalSoundboard.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <!-- Place new controls here -->
+    	<Button Text="+"
+           HorizontalOptions="StartAndExpand"
+           VerticalOptions="StartAndExpand" 
+           Clicked="NavigateButton_OnReleased"
+           WidthRequest="100"
+           HeightRequest="100"
+           FontSize="50"/>
+    </StackLayout>
 
 </ContentPage>
