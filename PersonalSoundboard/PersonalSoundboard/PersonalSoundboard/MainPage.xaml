@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:PersonalSoundboard"
              x:Class="PersonalSoundboard.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+	<Button HorizontalOptions="Center" VerticalOptions="Center" Text="Test" Clicked="Upload"/>
 
 </ContentPage>

@@ -2,7 +2,14 @@
   <h1> Restful API with PHP and SQL, returns JSON </h1>
   <h2 style="border-bottom: orange solid 1px;"> Crudify </h2>
 
+<form action="upload.php" method="post">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
 <?php
+sys_get_temp_dir();
     // GET details
     $obj = (include 'details.php');
     $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
