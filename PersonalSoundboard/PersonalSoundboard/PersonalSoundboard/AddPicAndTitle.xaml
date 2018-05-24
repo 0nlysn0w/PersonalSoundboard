@@ -2,22 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PersonalSoundboard.AddPicAndTitle">
-    <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Foto/GIF toevoegen"
+
+        <Button Text="Foto/GIF toevoegen"
                     VerticalOptions="Center"
                     HorizontalOptions="Center" 
                     WidthRequest="180"
                     HeightRequest="130"
                     BackgroundColor="Blue"/>
 
-            <Entry Placeholder="Titel toevoegen"
+        <Entry Placeholder="Titel toevoegen"
                    WidthRequest="200"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    HorizontalTextAlignment="Center"/>
 
-            <Button Text="✔"
+        <Button Text="✔"
                     WidthRequest="100"
                     HeightRequest="100"
                     HorizontalOptions="Center"
@@ -26,6 +25,4 @@
                     BorderColor="Transparent"
                     Released="NavigateButton_OnReleased"/>
 
-        </StackLayout>
-    </ContentPage.Content>
 </ContentPage>

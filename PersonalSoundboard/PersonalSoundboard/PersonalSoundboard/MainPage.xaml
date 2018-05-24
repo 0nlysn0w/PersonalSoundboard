@@ -3,16 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PersonalSoundboard"
              x:Class="PersonalSoundboard.MainPage">
+    <ScrollView>
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    <StackLayout>
         <!-- Place new controls here -->
-    	<Button Text="+"
+        <Button Grid.Column="0" Grid.Row="0" Text="+"
            HorizontalOptions="StartAndExpand"
            VerticalOptions="StartAndExpand" 
            Clicked="NavigateButton_OnReleased"
            WidthRequest="100"
            HeightRequest="100"
            FontSize="50"/>
-    </StackLayout>
-
+        </Grid>
+    </ScrollView>
 </ContentPage>
