@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PersonalSoundboard"
              x:Class="PersonalSoundboard.MainPage">
-	<ScrollView>
+	<!--<ScrollView>
 		<Grid>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="*"/>
@@ -17,7 +17,7 @@
 			</Grid.RowDefinitions>
 
 
-			<!-- Place new controls here -->
+			--><!-- Place new controls here --><!--
 			<Button Grid.Column="0" Grid.Row="0" Text="+"
            HorizontalOptions="StartAndExpand"
            VerticalOptions="StartAndExpand" 
@@ -25,6 +25,16 @@
            WidthRequest="100"
            HeightRequest="100"
            FontSize="50"/>
+
+
+
 		</Grid>
-	</ScrollView>
+
+	</ScrollView>-->
+	<StackLayout>
+		<Button Text="PostGroup" Clicked="AddGroup"/>
+		<Button Text="PostContent" Clicked="AddContent"/>
+		<Button Text="Upload" Clicked="Upload"/>
+
+	</StackLayout>
 </ContentPage>
