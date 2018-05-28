@@ -32,9 +32,13 @@
 
 	</ScrollView>-->
 	<StackLayout>
-		<Button Text="PostGroup" Clicked="AddGroup"/>
-		<Button Text="PostContent" Clicked="AddContent"/>
+		<!--<Button Text="PostGroup" Clicked="AddGroup"/>-->
+		<!--<Button Text="PostContent" Clicked="AddContent"/>-->
 		<Button Text="Upload" Clicked="Upload"/>
+
+		<Entry x:Name="groupname" Placeholder="Group Name"/>
+		<Button Text="Submit Group" Clicked="AddGroup"/>
+
 
 	</StackLayout>
 </ContentPage>
